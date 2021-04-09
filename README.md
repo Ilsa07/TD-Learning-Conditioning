@@ -1,5 +1,5 @@
 # Temporal Difference Learning - Conditioning
-
+This project illustrates classical conditioning with Temporal Difference (TD) learning. In each trial, a stimulus, lets say bell, is presented at t=5 and a reward, some good food, is presented at t=20, at the end of the trial. The model learns to associate the stimulus with the reward. While the code runs the program updates the simulation_live.png image, which depicts the TD error and the value function across each trial. It can be seen that the as the algorithm is learning, the value function approaches the first time the stimulus is presented and when it finished learning it reaches it.
 
 ### Value Function
 The value function is calculated witht the following equation w are the weights and x is the input.
